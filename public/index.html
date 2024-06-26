@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  CS 132
+  CP 4: Student Directory
+
+  This is the HTML code for the student directory of the
+  class of 2021, containing the client side front-end
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <title>House of Game</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="students.js"></script>
+</head>
+
+<body> 
+    <section id="home-page">
+        <h1 id="welcome-text">Welcome to the Class of 2100 directory</h1>
+        <div class="level">
+            <h2>Select Name:</h2>
+            <select id="select"></select>
+        </div>
+        <button id="start-btn">ENTER</button>
+    </section>
+    <section id="student" class="hidden">
+        <div id="info"></div>
+        <button id="back-btn">Quit</button>
+    </section>
+</body>
+</html>

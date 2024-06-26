@@ -1,0 +1,39 @@
+/**
+ * CS 132
+ * CP4: Student directory for the class of 2100
+ * (CSS layout and Client-side JS)
+ * Author: Nyasha Makaya
+ *
+ * This document contains the styles for the student directory
+ * of the class of 2100
+ */
+
+body {
+    color: black;
+}
+
+.hidden, #student.hidden, #home-page.hidden {
+    display: none;
+}
+
+#home-page, #student {
+    align-items: center;
+    /* We chose to make margin relative to screen width size */
+    margin: 10% 20%;
+    padding:50px;
+    /* This is a flex property that gives spacing between the children;
+       as a flex column, adds some spacing between the options and button */
+    gap: 100px;
+    /* height: fit-content; */
+    /* White, with a bit of opacity */
+    background-color: lightgrey;
+    /* Example of a CSS property we chose to keep to show students */
+    /* backdrop-filter: blur(15px); */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

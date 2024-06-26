@@ -1,0 +1,11 @@
+Please fill out the following and submit with your CP 4 submission (added to help us know what to focus on when grading):
+
+1. What have you learned and applied in CP 4 since previous assignments?
+- I have learnt how to use the express module to create endpoints for get and fetch request for an API
+- I have also learnt to host and call an API on the local server
+
+2. To what extent would you like feedback in CP 4 (e.g. thorough, particular areas of API design/implementation)?
+- I would like some moderate feedback generally in everything
+
+3. Anything else you would like the grader to know?
+- Most effective ways to debug code in node.js
